@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: hsl(0, 27%, 74%);
+}
+
+#testimonios-1 {
+    background-color: hsl(263, 55%, 52%);
+    color: aliceblue;
+    flex-basis: 75%;
+}
+
+#testimonios-2 {
+    background-color: hsl(217, 19%, 35%);
+    color: aliceblue;
+    flex-basis: 25%;
+}
+
+#testimonios-3 {
+    background-color: hsl(0, 0%, 100%);
+    flex-basis: 25%;
+}
+
+#testimonios-4 {
+    background-color: hsl(219, 29%, 14%) ;
+    color: aliceblue;
+    flex-basis: 75%;
+}
+
+#testimonios-5 {
+    background-color: hsl(0, 0%, 100%);
+    flex-basis: 30%;
+}
+
+#contenedor_de_testimonios{
+    padding: 5% 5%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.item-grilla {
+    margin-bottom: 20px;
+    padding: 20px
+}
+
+#contenedro-izq  {
+    display: flex ;
+    flex-basis: 70%;
+}
+
+#arriva {
+    display: flex;
+    flex-basis: 50%;
+}
+
+#abajo {
+    display: flex;
+    flex-basis: 50%;
+}
+

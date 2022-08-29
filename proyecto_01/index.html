@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width", initial-scale="1.0">
+		<title>Paginota</title>
+		<link rel= "stylesheet" href = "./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+
+<body>
+
+    <div>
+        <nav class="menu">
+            <img src="assets/logo x.png" alt="Logo empresa x" width="200px">
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Sobre nosotros</a></li>
+              <li><a href="#">Contacto</a></li>
+              <li><a href="#">Redes sociales</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1>Titulo para imagen + texto</h1>
+    <img src="assets/gente_trabajando.jpeg" alt="imagen modelo"> <!-- poner imagen del producto y al costado texto de la empresa o x-->
+  
+  <section>
+    <h1> Descripcion de la empresa</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi in architecto minima, voluptates consequatur sequi cum quas sapiente. Ab debitis eveniet nihil suscipit quo asperiores. At mollitia temporibus hic.</p>
+  </section>
+
+<!-- Hoja de contacto-->
+
+<div class="contenedor"> <!-- contiene los datos del formulario y los manda al servidor-->
+  <h1> Contactanos </h1>
+  <form action="(servidor donde se manda la pagina)"> 
+    <!-- form permite captar varios imputs, para ser mandados al servidor, 
+      el atributo accion sirve para especificar a donde mandar la informacion -->
+
+    <label for="d_nombre"></label>
+<!-- Label  espesifica que elemento esta atado a que otro elemento. 
+    El for es para el darle un nombre dnetro del codigo -->
+    <input type="text" id="d_nombre" name="primer_nombre" placeholder="Nombre">
+<!-- input, es para decir que ingresa informacion. type, que tipo de dato es 
+    id, para poder recolectar el dato. name, nombre del dato. placeholder, que dice en la caja de texto -->
+
+    <label for="d_apellido"></label>
+    <input type="text" id="d_apellido" name="apellido" placeholder="Apellido">
+
+    <label for="d_telefono"></label>
+    <input type="tel" id="d_telefono" name="telefono" placeholder="Telefono">
+
+    <label for="d_mail"></label>
+    <input type="mail" id="d_mail" name="mail" placeholder="Mail">
+
+    <label for="d_consulta"></label>
+    <input type="text" id="d_consulta" name="consulta" placeholder="Escribir consulta"></textarea>
+    <!-- con agregar un style: y un ancho o largo podemos agrandar la caja de donde estan -->
+
+    <input type="submit" value="Enviar"> 
+
+    <!-- el imput submit es para el boton de envio de la informaicon. !!!Sumar redes sociales-->
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    
+  </form>
+</div>
+
+
+</div>
+
+  <div>
+      <nav class="footer">
+        <footer>
+          <!-- los links del fotter y mas-->
+        </footer>
+      </nav> <!-- rellenar con la informacion del footeer como una pagina web normal-->
+
+  </div>
+
+
+    
+</body>
+
