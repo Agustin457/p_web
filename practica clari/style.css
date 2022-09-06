@@ -1,5 +1,8 @@
+#nav_menu {
+    width: auto;
+    height:auto;
+}
 #brand img {
-    width: 80px;
-    height: 80;;
-    padding-left: 10px;
+    width: 15%;
+    height: 15%;
 }
