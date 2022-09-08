@@ -1,32 +1,28 @@
-#nav_menu {
-    width: auto;
-    height:auto;
+body {
+	background: #e2eaef;
+	font-family: "Open Sans", sans-serif;
 }
-#logazo_mate {
-    width: 15%;
-    height: 15%;
+h2 {
+	color: #000;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0 60px;
 }
-
-#icons {
-    width: 15%;
-    height: 15%;  
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	border-radius: 1px;
+	background: #7ac400;
+	left: 0;
+	right: 0;
+	bottom: -20px;
 }
-
-.bi {
-    vertical-align: -.125em;
-    fill: currentColor;
-}
-
-.b-example-divider {
-    height: 3rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
-    border-width: 1px 0;
-    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-}
-
-/* Esto es una nota para entender que este codigo es para que funciona el carrucel la tienda online */
-
 .carousel {
 	margin: 50px auto;
 	padding: 0 70px;
@@ -155,5 +151,11 @@
 }
 .carousel .wish-icon .fa-heart {
 	color: #ff6161;
-
-/* Este es el caroucel que copie de internet*/
+}
+.star-rating li {
+	padding: 0;
+}
+.star-rating i {
+	font-size: 14px;
+	color: #ffc000;
+}
